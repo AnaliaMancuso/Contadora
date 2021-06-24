@@ -58,39 +58,49 @@
     </section>
     <section>
         <h3>Consultas</h3>
-        <form>
-  <div class="form-row">
-    <div class="col-md-6 mb-3">
-      <label for="validationServer01" placeholder="">Nombre</label>
-            
-           
-      <input type="text" class="form-control is-valid" id="validationServer01"  required>
-      <div class="valid-feedback">
-        Datos ingresados correctamente
-      </div>
-    </div>
-    <div class="col-md-6 mb-3">
-      <label for="validationServer02">Apellido</label>
-      <input type="text" class="form-control is-valid" id="validationServer02"  required>
-      <div class="valid-feedback">
-        Datos ingresados correctamente
-      </div>
-    </div>
-  </div>
-  <div class="form-row">
-    <div class="col-md-6 mb-3">
-      <label for="validationServer03">Ciudad</label>
-      <input type="text" class="form-control is-invalid" id="validationServer03" aria-describedby="validationServer03Feedback" required>
-      <div id="validationServer03Feedback" class="invalid-feedback">
-        Please provide a valid city.
-      </div>
-    </div>
-  </div>
   
-  <button class="btn btn-primary" type="submit">Enviar</button>
-</form>
+  <div class="container">
+  <div class="mensaje-container">
+    <div class="formulario">
+      <div class="media">
+        <img src="" class="align-self-start mr-3" height=100 alt="">
+        <div class="media-body">
+          <h3 class="mt-0">Consultas</h3>
+        </div>
+      </div>
+      <div class="form-floating mb-3">
+        <label for="floatingInput">Nombre</label>
+        <input type="text" class="form-control" id="floatingInput" placeholder="Nombre/s">
+      </div>
+      <div class="form-floating mb-3">
+        <label for="floatingInput">Apellido/s</label>
+        <input type="text" class="form-control" id="floatingInput" placeholder="Apellido/s">
+      </div>
+      <div class="form-floating mb-3">
+        <label for="floatingInput">E-mail</label>
+        <input type="email" class="form-control" id="floatingInput" placeholder="nombre@ejemplo.com">
+      </div>
+      <div class="form-floating mb-3">
+        <label for="floatingInput">Teléfono</label>
+        <input type="number" class="form-control" id="floatingInput" placeholder="01 2345 6789">
+      </div>
+      <div class="form-floating">
+        <label for="floatingTextarea">Asunto</label>
+        <textarea class="form-control" placeholder="Asunto" id="floatingInput" ></textarea>
+      </div>
+      <div class="form-floating">
+        <label for="floatingTextarea">Mensaje</label>
+        <textarea class="form-control" placeholder="Deje su mensaje acá" id="floatingTextarea" ></textarea>
+      </div>
+      <div class="row justify-content-center">
+        <button type="submit" class="btn">Enviar</button>
+      </div>  
+    </div>    
+  </div>    
+  </div>
+</section>
 
-    </section>
+
     <footer>
         Copyright 2021
     </footer>
